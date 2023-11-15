@@ -1,0 +1,30 @@
+D:\Documents\GitHub\RobotArena\RobotCaveFightTestArena\RobotCaveFightTestArena\bin\Debug\net6.0\RobotCaveFightTestArena.exe
+D:\Documents\GitHub\RobotArena\RobotCaveFightTestArena\RobotCaveFightTestArena\bin\Debug\net6.0\RobotCaveFightTestArena.deps.json
+D:\Documents\GitHub\RobotArena\RobotCaveFightTestArena\RobotCaveFightTestArena\bin\Debug\net6.0\RobotCaveFightTestArena.runtimeconfig.json
+D:\Documents\GitHub\RobotArena\RobotCaveFightTestArena\RobotCaveFightTestArena\bin\Debug\net6.0\RobotCaveFightTestArena.dll
+D:\Documents\GitHub\RobotArena\RobotCaveFightTestArena\RobotCaveFightTestArena\bin\Debug\net6.0\RobotCaveFightTestArena.pdb
+D:\Documents\GitHub\RobotArena\RobotCaveFightTestArena\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.csproj.AssemblyReference.cache
+D:\Documents\GitHub\RobotArena\RobotCaveFightTestArena\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\GitHub\RobotArena\RobotCaveFightTestArena\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.AssemblyInfoInputs.cache
+D:\Documents\GitHub\RobotArena\RobotCaveFightTestArena\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.AssemblyInfo.cs
+D:\Documents\GitHub\RobotArena\RobotCaveFightTestArena\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\RobotArena\RobotCaveFightTestArena\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.dll
+D:\Documents\GitHub\RobotArena\RobotCaveFightTestArena\RobotCaveFightTestArena\obj\Debug\net6.0\refint\RobotCaveFightTestArena.dll
+D:\Documents\GitHub\RobotArena\RobotCaveFightTestArena\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.pdb
+D:\Documents\GitHub\RobotArena\RobotCaveFightTestArena\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.genruntimeconfig.cache
+D:\Documents\GitHub\RobotArena\RobotCaveFightTestArena\RobotCaveFightTestArena\obj\Debug\net6.0\ref\RobotCaveFightTestArena.dll
+C:\Users\Gillenwaterj\Downloads\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\bin\Debug\net6.0\RobotCaveFightTestArena.exe
+C:\Users\Gillenwaterj\Downloads\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\bin\Debug\net6.0\RobotCaveFightTestArena.deps.json
+C:\Users\Gillenwaterj\Downloads\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\bin\Debug\net6.0\RobotCaveFightTestArena.runtimeconfig.json
+C:\Users\Gillenwaterj\Downloads\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\bin\Debug\net6.0\RobotCaveFightTestArena.dll
+C:\Users\Gillenwaterj\Downloads\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\bin\Debug\net6.0\RobotCaveFightTestArena.pdb
+C:\Users\Gillenwaterj\Downloads\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.csproj.AssemblyReference.cache
+C:\Users\Gillenwaterj\Downloads\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gillenwaterj\Downloads\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.AssemblyInfoInputs.cache
+C:\Users\Gillenwaterj\Downloads\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.AssemblyInfo.cs
+C:\Users\Gillenwaterj\Downloads\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.csproj.CoreCompileInputs.cache
+C:\Users\Gillenwaterj\Downloads\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.dll
+C:\Users\Gillenwaterj\Downloads\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\obj\Debug\net6.0\refint\RobotCaveFightTestArena.dll
+C:\Users\Gillenwaterj\Downloads\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.pdb
+C:\Users\Gillenwaterj\Downloads\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\obj\Debug\net6.0\RobotCaveFightTestArena.genruntimeconfig.cache
+C:\Users\Gillenwaterj\Downloads\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\obj\Debug\net6.0\ref\RobotCaveFightTestArena.dll
