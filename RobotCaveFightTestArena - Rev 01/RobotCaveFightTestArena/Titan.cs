@@ -46,6 +46,11 @@ namespace RobotCaveFightTestArena
 
         public void Reset() => health = 10 * constitution;
 
-        public void TakeDamage(double damage) => health -= damage;
+        public void TakeDamage(double damage)
+        {
+            double damageDealt = damage - (defense / 100 * damage);
+            health -= damageDealt;
+
+        }
     }
 }

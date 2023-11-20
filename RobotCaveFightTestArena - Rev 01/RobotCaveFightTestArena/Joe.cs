@@ -10,10 +10,10 @@ namespace RobotCaveFightTestArena
     internal class Joe : IRobot
     {
         
-        double attack = 1;
+        double attack = 39;
         double defense = 1;
-        double speed = 1;
-        static double constitution = 37;
+        double speed = -20000;
+        static double constitution = 20000; //break this pls
         double health = 10 * constitution;
         
         public void setStats(double att, double def, double spe, double cons)
@@ -43,6 +43,7 @@ namespace RobotCaveFightTestArena
         public ActionResult PerformAction(IRobot opponent)
         {
             opponent.TakeDamage(attack);
+            Console.WriteLine(opponent.GetStats());
             return new ActionResult("One Punch", "Punch");
         }
 
@@ -51,6 +52,11 @@ namespace RobotCaveFightTestArena
 
         public void Reset() => health = 10 * constitution;
 
-        public void TakeDamage(double damage) => health -= damage;
+        public void TakeDamage(double damage)
+        {
+            double damageDealt = damage - (defense / 100 * damage);
+            health -= damageDealt;
+
+        }
     }
 }

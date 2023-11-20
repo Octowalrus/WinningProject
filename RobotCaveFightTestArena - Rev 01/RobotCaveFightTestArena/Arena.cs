@@ -32,33 +32,33 @@ namespace RobotCaveFightTestArena {
 				//the first contestant to act is successful.
 				if (Contestant1.GetSpeed() > Contestant2.GetSpeed()) {
 					ActionResult firstAction = Contestant1.PerformAction(Contestant2);
-					Console.WriteLine($"{Contestant1.GetRobotName()}: {firstAction.ActionName}");
-					Thread.Sleep(2);	//175
+					//Console.WriteLine($"{Contestant1.GetRobotName()}: {firstAction.ActionName}");
+					//Thread.Sleep(2);	//175
 
 					if (Contestant2.GetHealth() <= 0) break;
 
 					ActionResult secondAction = Contestant2.PerformAction(Contestant1);
-					Console.WriteLine($"{Contestant2.GetRobotName()}: {secondAction.ActionName}");
-					Thread.Sleep(2);	//175
+					//Console.WriteLine($"{Contestant2.GetRobotName()}: {secondAction.ActionName}");
+					//Thread.Sleep(2);	//175
 				}
 				else {
 					ActionResult firstAction = Contestant2.PerformAction(Contestant1);
-					Console.WriteLine($"{Contestant2.GetRobotName()}: {firstAction.ActionName}");
-					Thread.Sleep(2);	//175
+					//Console.WriteLine($"{Contestant2.GetRobotName()}: {firstAction.ActionName}");
+					//Thread.Sleep(2);	//175
 
 					if (Contestant1.GetHealth() <= 0) break;
 
 					ActionResult secondAction = Contestant1.PerformAction(Contestant2);
-					Console.WriteLine($"{Contestant1.GetRobotName()}: {secondAction.ActionName}");
-					Thread.Sleep(2);	//175
+					//Console.WriteLine($"{Contestant1.GetRobotName()}: {secondAction.ActionName}");
+					//.Sleep(2);	//175
 				}
 
 				// display stats
-				Console.WriteLine();
-				Console.WriteLine($"{Contestant1.GetRobotName()}: HP({Contestant1.GetHealth()}) {Contestant1.GetStats()}");
-				Console.WriteLine($"{Contestant2.GetRobotName()}: HP({Contestant2.GetHealth()}) {Contestant2.GetStats()}");
-				Console.WriteLine();
-				Thread.Sleep(4);	//350
+				//Console.WriteLine();
+				//Console.WriteLine($"{Contestant1.GetRobotName()}: HP({Contestant1.GetHealth()}) {Contestant1.GetStats()}");
+				//Console.WriteLine($"{Contestant2.GetRobotName()}: HP({Contestant2.GetHealth()}) {Contestant2.GetStats()}");
+				//Console.WriteLine();
+				//Thread.Sleep(4);	//350
 
 				roundCount++;				
 			}
@@ -74,7 +74,7 @@ namespace RobotCaveFightTestArena {
 				winner = Contestant2.GetHealth() <= 0 ? Contestant1 : Contestant2;
 			}
 			info = winner.GetRobotName();
-			Console.WriteLine($"{winner.GetRobotName()} has won the battle!");
+			//Console.WriteLine($"{winner.GetRobotName()} has won the battle!");
 		}
 	}
 
