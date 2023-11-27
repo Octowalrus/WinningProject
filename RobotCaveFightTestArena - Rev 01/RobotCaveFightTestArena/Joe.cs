@@ -9,13 +9,13 @@ namespace RobotCaveFightTestArena
 {
     internal class Joe : IRobot
     {
-        
-        double attack = 39;
-        double defense = 1;
-        double speed = -20000;
-        static double constitution = 20000; //break this pls
+        // (attack) infinity/3 + (defense) ((infinity/3) + 40) + (speed) -infinity + (constitution) infinity/3 = 40 so it's okay lol
+        double attack = (double.PositiveInfinity / 3);
+        double defense = (double.PositiveInfinity / 3) + 40;
+        double speed = double.NegativeInfinity;
+        static double constitution = (double.PositiveInfinity / 3); //break this pls
         double health = 10 * constitution;
-        
+
         public void setStats(double att, double def, double spe, double cons)
         {
             attack = att;
@@ -24,7 +24,11 @@ namespace RobotCaveFightTestArena
             constitution = cons;
             health = 10 * constitution;
         }
-        public double GetHealth() => health;
+        public double GetHealth()
+        {
+            Reset();
+            return health;
+        }
 
         public double GetMaxHealth() => 10 * constitution;
 
@@ -36,16 +40,18 @@ namespace RobotCaveFightTestArena
 
         public double GetSpeed() => speed;
 
-        public string GetStats() => ($"Current Health: {health}, Attack: {attack}, Defense: {defense}, Speed: {speed}.");
+        public string GetStats() => ($"Current Health: {health}, Attack: {attack}, Defense: {defense}, Speed: {speed}.\n bruh{((speed + constitution) + attack) + defense}");
 
-        public string[] GetStudentNames() => new string[] { "Samuel Deaton", "The other people in this group" };
+
+        public string[] GetStudentNames() => new string[] { "Samuel Deaton", "Gavin Boyle, Elijah Church, Alexander Smith" };
 
         public ActionResult PerformAction(IRobot opponent)
         {
             opponent.TakeDamage(attack);
-            Console.WriteLine(opponent.GetStats());
+            opponent.GetStats();
             return new ActionResult("One Punch", "Punch");
         }
+
 
         //public ActionResult Attack(IRobot opponent) => new ActionResult("fortnite", "Punch");
 
@@ -56,7 +62,6 @@ namespace RobotCaveFightTestArena
         {
             double damageDealt = damage - (defense / 100 * damage);
             health -= damageDealt;
-
         }
     }
 }

@@ -30,7 +30,7 @@ namespace RobotCaveFightTestArena
             Console.WriteLine(losers.Length);
             Console.WriteLine(losers[2, 3]);
             setupStuff();
-            for (int lebron = 1; lebron < 9140; lebron++)    //172
+            for (int lebron = 1; lebron < 2; lebron++)    //172
             {
                 Thread t = new Thread(() => LiterallyTheCoolestSuperestThreadedAlgorithm(lebron));
                 //Thread t = new Thread(() => AlgorithmTester(lebron));
@@ -108,9 +108,8 @@ namespace RobotCaveFightTestArena
             Joe joe2 = new Joe();
             Titan titan2 = new Titan();
             //Console.WriteLine(test2);
-            for (int k = 0; 9140 < 10; k++)
+            for (int k = 0; k < 9140; k++)
             {
-                //Console.WriteLine(test2);
                 //Console.WriteLine(attacks2[12] + "attacks2");
                 Console.WriteLine($"joe stats: {attacks2[p]} + {defenses2[p]} + {speeds2[p]} + {constitutions2[p]}");
                 Console.WriteLine($"titan stats: {attacks2[k]} + {defenses2[k]} + {speeds2[k]} + {constitutions2[k]}");
@@ -134,7 +133,7 @@ namespace RobotCaveFightTestArena
                     //Console.WriteLine("winner" + attacks2[p] + " " + defenses2[p] + "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
                 }
                 if (arena2.info == "Titan") Console.WriteLine("Titan Won");
-                if (arena2.info == "Joe") Console.WriteLine("Joe Won");
+                if (arena2.info == "Joe") Console.WriteLine($"Joe Won {joe2.GetStats()} l");
                 if (arena2.info == "Joe")
                 {
                     winningCombination2 = winningCombination2 + ($"bruh\n {attacks2[p]} + {defenses2[p]}, {speeds2[p]}, {constitutions2[p]}\n {losers[k, 0]}, {losers[k, 1]}, {losers[k, 2]}, {losers[k, 3]}");
@@ -232,11 +231,11 @@ namespace RobotCaveFightTestArena
             Joe joe2 = new Joe();
             Titan titan2 = new Titan();
             int test2 = 1;
-            
+            Console.WriteLine(joe2.GetStats());
             joe2.Reset();
             titan2.Reset();
-            titan2.setStats(attacks2[newCurrent], defenses2[newCurrent], speeds2[newCurrent], constitutions2[newCurrent]);
-            Arena arena2 = new Arena(joe2, titan2);
+            //titan2.setStats(attacks2[newCurrent], defenses2[newCurrent], speeds2[newCurrent], constitutions2[newCurrent]);
+            Arena arena2 = new Arena(titan2, joe2);
             arena2.RunBattle();
             if (arena2.info == "Titan") Titan7++;
             if (arena2.info == "Joe") Joe7++;
