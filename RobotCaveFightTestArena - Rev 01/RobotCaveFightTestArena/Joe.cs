@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,10 +10,9 @@ namespace RobotCaveFightTestArena
 {
     internal class Joe : IRobot
     {
-        // (attack) infinity/3 + (defense) ((infinity/3) + 40) + (speed) -infinity + (constitution) infinity/3 = 40 so it's okay lol
-        double attack = (double.PositiveInfinity / 3);
+        double attack = double.PositiveInfinity;
         double defense = (double.PositiveInfinity / 3) + 40;
-        double speed = double.NegativeInfinity;
+        double speed = double.PositiveInfinity;
         static double constitution = (double.PositiveInfinity / 3); //break this pls
         double health = 10 * constitution;
 
@@ -61,7 +61,7 @@ namespace RobotCaveFightTestArena
         public void TakeDamage(double damage)
         {
             double damageDealt = damage - (defense / 100 * damage);
-            health -= damageDealt;
+            health = health - damageDealt;
         }
     }
 }

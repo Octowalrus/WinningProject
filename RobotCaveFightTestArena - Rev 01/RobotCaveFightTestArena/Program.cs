@@ -27,8 +27,8 @@ namespace RobotCaveFightTestArena
 
         static void Main(string[] args)     // 1+1+1+37?    nah, 18+1+1+20 / ult is 17+2+1+20
         {
-            Console.WriteLine(losers.Length);
-            Console.WriteLine(losers[2, 3]);
+            //Console.WriteLine(losers.Length);
+            //Console.WriteLine(losers[2, 3]);
             setupStuff();
             for (int lebron = 1; lebron < 2; lebron++)    //172
             {
@@ -235,7 +235,7 @@ namespace RobotCaveFightTestArena
             joe2.Reset();
             titan2.Reset();
             //titan2.setStats(attacks2[newCurrent], defenses2[newCurrent], speeds2[newCurrent], constitutions2[newCurrent]);
-            Arena arena2 = new Arena(titan2, joe2);
+            Arena arena2 = new Arena(joe2, titan2);
             arena2.RunBattle();
             if (arena2.info == "Titan") Titan7++;
             if (arena2.info == "Joe") Joe7++;

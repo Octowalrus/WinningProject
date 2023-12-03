@@ -8,10 +8,10 @@ namespace RobotCaveFightTestArena
 {
     internal class Titan : IRobot
     {
-        double attack = double.PositiveInfinity / 2;
-        double defense = 40;
+        double attack = double.PositiveInfinity / 3;
+        double defense = (double.PositiveInfinity / 3) + 40;
         double speed = double.NegativeInfinity;
-        static double constitution = double.PositiveInfinity / 2;
+        static double constitution = double.PositiveInfinity / 3;
         double health = 10 * constitution;
 
         public void setStats(double att, double def, double spe, double cons)
@@ -48,7 +48,7 @@ namespace RobotCaveFightTestArena
         public void TakeDamage(double damage)
         {
             double damageDealt = damage - (defense / 100 * damage);
-            health -= damageDealt;
+            health = health - damageDealt;
 
         }
     }
