@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OneDrive - East Tennessee State University\\Github\\WinningProject\\RobotCaveFightTestArena - Rev 01\\RobotCaveFightTestArena\\RobotCaveFightTestArena.csproj",
+      "projectUniqueName": "C:\\Users\\samue\\OneDrive - East Tennessee State University\\win\\RobotCaveFightTestArena - Rev 01\\RobotCaveFightTestArena\\RobotCaveFightTestArena.csproj",
       "projectName": "RobotCaveFightTestArena",
-      "projectPath": "D:\\OneDrive - East Tennessee State University\\Github\\WinningProject\\RobotCaveFightTestArena - Rev 01\\RobotCaveFightTestArena\\RobotCaveFightTestArena.csproj",
+      "projectPath": "C:\\Users\\samue\\OneDrive - East Tennessee State University\\win\\RobotCaveFightTestArena - Rev 01\\RobotCaveFightTestArena\\RobotCaveFightTestArena.csproj",
       "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
-      "outputPath": "D:\\OneDrive - East Tennessee State University\\Github\\WinningProject\\RobotCaveFightTestArena - Rev 01\\RobotCaveFightTestArena\\obj\\",
+      "outputPath": "C:\\Users\\samue\\OneDrive - East Tennessee State University\\win\\RobotCaveFightTestArena - Rev 01\\RobotCaveFightTestArena\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\samue\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

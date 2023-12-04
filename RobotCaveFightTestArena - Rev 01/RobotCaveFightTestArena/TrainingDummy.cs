@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RobotCaveFightTestArena {
 	internal class TrainingDummy : IRobot {
-		double health = 100;
+		double health = double.PositiveInfinity;
 		public double GetHealth() => health;
 
 		public double GetMaxHealth() => 100;
@@ -28,5 +28,10 @@ namespace RobotCaveFightTestArena {
 		public void Reset() => health = 100;
 
 		public void TakeDamage(double damage) => health -= damage;
-	}
+
+		public double GetAttack() => 0;
+
+
+		public double GetDefense() => 0;
+    }
 }

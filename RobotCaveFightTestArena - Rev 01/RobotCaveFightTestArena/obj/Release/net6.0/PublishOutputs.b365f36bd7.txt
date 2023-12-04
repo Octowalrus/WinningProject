@@ -1,5 +1,0 @@
-C:\Users\samue\OneDrive - East Tennessee State University\Github\WinningProject\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\bin\Release\net6.0\publish\RobotCaveFightTestArena.exe
-C:\Users\samue\OneDrive - East Tennessee State University\Github\WinningProject\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\bin\Release\net6.0\publish\RobotCaveFightTestArena.dll
-C:\Users\samue\OneDrive - East Tennessee State University\Github\WinningProject\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\bin\Release\net6.0\publish\RobotCaveFightTestArena.deps.json
-C:\Users\samue\OneDrive - East Tennessee State University\Github\WinningProject\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\bin\Release\net6.0\publish\RobotCaveFightTestArena.runtimeconfig.json
-C:\Users\samue\OneDrive - East Tennessee State University\Github\WinningProject\RobotCaveFightTestArena - Rev 01\RobotCaveFightTestArena\bin\Release\net6.0\publish\RobotCaveFightTestArena.pdb

@@ -15,4 +15,6 @@ public interface IRobot
 	public string GetSecondaryColor();
 	public void TakeDamage(double damage);
 	public ActionResult PerformAction(IRobot opponent);
+    public double GetAttack();
+    public double GetDefense();
 }
